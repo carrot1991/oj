@@ -1,0 +1,5 @@
+connection.username=voodoo1979
+connection.password=r8bw6zqd
+connection.url=jdbc:mysql://admin.s30.javaidc.com:3309/javaidc_voodoo1979?characterEncoding=utf-8
+connection.driver_class=com.mysql.jdbc.Driver
+ 

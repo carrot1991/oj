@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>xxx</title>
+<base href="<%=basePath %>">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/datagrid/datagrid.js"></script>
+<link type="text/css" href="js/layer/skin/css.css" rel="stylesheet" />
+<link href="js/datagrid/skin/datagrid.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/layer/layer.js"></script>
+<script type="text/javascript" src="js/layer/layer.js"></script>
+<script type="text/javascript">
+ 
+$(function(){
+	$("#table").dataGrid({
+		url : 'http://localhost:8080/mvcjxc/goods/listPager?type=1&role=1',
+		headHeight : 30,
+		bodyHeight:280,
+		pageHeight : 30,
+		rowHeight:25,
+		isSerialNo:true,
+		itemClass:['item1','item2'],
+		fields:[  
+				  {name:'产品',field:'prodid',width:30},
+				  {name:'别名',field:'nickname',width:30},
+		          {name:'配置',field:'config',width:60},
+				  {name:'存量',field:'amount',width:60},
+				  {name:'价格',field:'price',width:60,input:true},
+		          {name:'购买',field:'buyAmount',width:60,input:true}
+		          ]
+	   
+	});
+ 
+});
+ 
+   function refresh(){
+	   $("#table").dataRefresh();
+	   $.unblockUI();
+   }
+   
+   function closed(){
+	   $.unblockUI();
+   }
+   
+   function update(title,url){
+	   $.layer({
+		   width:368,
+		   height:310,
+		   isZY:true,
+		   moveLayer:false,
+		   parent:'keepsoft_1_',
+           content:[{name:title,url:url}]
+		});
+   }
+ 
+  function buy(prodid){
+	 
+	$.post("shopCart/add",{prodid:id},function(json){
+			   $.unblockUI();
+			   refresh();
+		  });
+
+  }
+
+</script>
+<style type="text/css">
+   body{background: #fff;}
+   body,p,table,p,img {margin:0; padding:0;font-family:"宋体",Verdana, Arial,Sans; font-size:12px;}
+   ul,li{margin:0; padding:0; list-style:none;}
+   table,td {border-collapse:collapse;empty-cells:show;}
+   .h1{height: 29px;background:#f1f1f1;border-bottom: solid 1px #c6dbee;}
+   .h1 span{float:left;height: 24px;line-height: 24px; padding:0 10px;cursor: pointer;margin-top: 4px;display:inline;color: #547392;font-weight: bold;margin-left: 25px;}
+   .h1 span.div{background:#ddeefe;border: solid 1px #c7ddeb;border-bottom-width: 0;}
+   .h1 span.add{background:url("theme/images/add.gif") no-repeat 0 3px;padding-left: 20px;}
+   .keepsoft-table  .tableHeadArea{border-bottom-color:#a0b4c6; }
+   .keepsoft-table  .tableHeadArea .input input{margin-top: 8px;}
+   .keepsoft-table  .tableBodyArea .input input{margin-top: 5px;}
+   .item1{background: #f9fdff;}
+   .item2{background: #f1f8fd;}
+</style>
+</head>
+<body>
+<div class="h1">
+   <span class="div">xxx</span>
+</div>
+
+                关键字: 
+                     <input type=text id="key" name="key">
+                 价格区间: 
+                     <input type=text id="searchP1" name="searchP1"/> - 
+                     <input type=text id="searchP2"name="searchP2" /> 
+                     
+                     <input type="button" value="搜索"  id="searchButton" /> 
+
+<div style="margin: 10px auto 0; width: 690px;">
+  <div id="table"></div>
+</div>
+</body>
+</html>

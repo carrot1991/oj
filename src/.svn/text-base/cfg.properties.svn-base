@@ -1,0 +1,9 @@
+hims.result.temp.path=d\:\\hims\\
+hims.yuAn.path=d\:\\hims\\plan\\
+
+
+#hims.result.temp.path=E\:\\\www\\hims\\
+#hims.yuAn.path=E\:\\\www\\hims\\plan\\
+#map.url=http://192.168.1.163
+#dblink.name=[192.168.1.163].[hims_xizang].sde.
+hims.540126=http://localhost:8010/HimsPostData/api/saveWarnInfo

@@ -1,0 +1,50 @@
+pdf生成，需要：
+ copy c:\windows\Fonts\STKAIFI.TTF src目录...
+
+用户修改产品的价格、数量
+================
+要经过以下步骤：
+ 填想要修改的价格、数量 ->pendingprice、pendingamount.
+ 调用function editgoods() 
+  (如果返回值不是0，则报告以下异常，‘价格变动单已提交，请等待结果’，函数会将价格、数量写进表中。
+  -1: 数量异常
+  -2: 比上次价格调整超过幅度
+  -3: 日调整超过幅度
+   如果返回 0，函数会直接修改掉它。
+ 
+用户新增产品的价格、数量
+=================
+  调用function upgoods(),如果返回值是-1，则直接不允许，报告数量异常
+ 
+1. 购物时：addcart(V)
+    只要amount>=用户输入的数量,调用存储过程，加入购物车(s_shop_cart).
+          后台立即：数量不足则返回 -1
+              否则：
+                 写入购物车、生成定单项(s_shop_ord_item(有cartid))、生成分解(s_shop_ord_item_part)
+      
+2. 购物车取消一项:调用存储过程 removecart(V)
+             后台立即：删除购物车该项、取消该定单、取消分解
+
+3. 选择多个购物车项(给用户确认一次！生成定单总号 )【因为mysql没有数组概念，不好用过程传参】
+  用户确认后：
+ 
+ update s_shop_ord_item set ordid=定单总号 where cartid in(当前的购物车中的ids);
+ delete from s_shop_cart  where cartid in (当前的购物车中的ids);
+  
+4. 购物车定时被清除，逻辑如同 2. removecart
+(
+写一个计划任务，如果  now()-s_shop_cart.createTime > 1天 -> removecart(cartid)
+)
+
+商务在后台
+-------
+正常的商品浏览：
+ from goods where ispending<>1 and ischangepending<>1
+
+ 我管理的产品的，待审核的 商品增加单 (from s_goods where ispending=1)...
+ 同意：则 update ispending=1
+ 
+ 我管理的产品的，待审核的 价格修改单 (from s_goods where ischangepending=1)...
+ 同意：则将2个pendingprice,pendingamount 直接替换 price,amount.
+
+

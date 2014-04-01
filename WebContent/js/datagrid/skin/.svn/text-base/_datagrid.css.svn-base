@@ -1,0 +1,27 @@
+.keepsoft-table {overflow-x:auto; }
+.keepsoft-table .tableHeadArea {background: url("images/sys_base_bg.png") repeat-x;border:solid 1px; border-left-width:0;border-top-width:0 ;border-bottom-color:#c8c8c8;border-right-color:#d6d6d6;line-height: 30px;}
+.keepsoft-table .tableHeadArea span{float:left;padding-left: 3px;font-weight: bold;border-right: solid 1px #a0b4c6;}
+.keepsoft-table .dataTotalDiv,.keepsoft-table .tableBodyArea{border:solid 1px; border-left-width:0;border-top-width:0 ;border-bottom-color:#c8c8c8;border-right-color:#d6d6d6;}
+.keepsoft-table .tableBodyArea{overflow-y:auto;overflow-x:hidden;}
+.keepsoft-table .dataTotalDiv span{float:left;padding-left: 3px;border-right: solid 1px #cae0f8;}
+.keepsoft-table .tableBodyArea .tableBody{border-bottom: solid 1px #d6d6d6;float:left;width: 100%;overflow: hidden;}
+.keepsoft-table .tableBodyArea .tableBody span{float:left;padding-left: 3px;border-right: solid 1px #d6d6d6;word-break: break-all; word-wrap:break-word;}
+.keepsoft-table .tableBodyArea .tableBody span a{ padding: 0 5px;cursor: pointer;color: #417eb7;}
+.keepsoft-table .tableBodyArea .tableBody span.input{vertical-align: middle; display: table-cell; *position: absolute; *top: 50%; }
+.keepsoft-table .tableBodyArea .tableBody span input,.keepsoft-table .tableHeadArea .input input{margin-top: 8px; }
+
+.keepsoft-table .tableBodyArea  .item1 {background: #f9fdff;}
+
+.keepsoft-table .tableHeadArea span.last,.keepsoft-table .dataTotalDiv span.last,.keepsoft-table .tableBodyArea .tableBody span.last{border-right-width: 0;}
+.keepsoft-table .tablePagerArea {background: #E3E3E3;border:solid 1px #C8C8C8; border-top-width: 0;}
+.keepsoft-table .tablePagerArea .pagetotal{margin-left:10px;height:18px;margin-top:5px; float:left; background: #F1F1F1;padding: 4px 5px 0}
+.keepsoft-table .tablePagerArea .pagetotal span{color:#417eb7; padding:0 5px;font-weight: bold;}
+.keepsoft-table .tablePagerArea .pt_20{height:16px;margin-top:1px;padding: 1px 5px 0;}
+
+.keepsoft-table .tablePagerArea .pageshow{padding:10px; text-align:center; float:right; margin-right:30px;}
+.keepsoft-table .tablePagerArea .pageshow .a{cursor: pointer; border:1px solid #aaaadd; padding: 2px 5px;color:#000; margin-left: 5px; }
+.keepsoft-table .tablePagerArea .pageshow .ahover{border:1px solid #417EB7; color:white; background: #0FAAC4;}
+.keepsoft-table .tablePagerArea .pageshow .disabled{ border:1px solid #eee; padding: 2px 0px 2px 5px; }
+.keepsoft-table .tablePagerArea .pageshow .current{border:1px solid #417EB7; color:white; background: #0FAAC4;padding: 2px 5px;margin-left: 5px; font-weight:bold; }
+
+

@@ -1,0 +1,77 @@
+.keepfoft_moves{border:3px solid #333; cursor:move; opacity:0.7; filter:alpha(opacity=70);position:absolute;}
+.keepfoft_overlay,.keepfoft_layer{position:fixed; _position:absolute;}
+.keepfoft_overlay{margin:0;padding:0;width:100%;height:100%;top:0;left:0;}
+.keepfoft_iframe_load{background:url(images/load.gif) #fff center center no-repeat;}
+
+/*loading*/
+#keepsoft_loading{border: solid 3px #939393;font-size: 14px;background: #fff; text-align: left;}
+#keepsoft_loading .layerContent{text-align: left;color:#444444; display:table; position:relative; overflow:hidden;}
+#keepsoft_loading .layerContent .subwrap{ *position:absolute; top:50%; left:0; display:table-cell; vertical-align:middle;}
+#keepsoft_loading .layerContent .subwrap .layertext{position: relative; top:-50%; margin:0; padding:0;}
+
+#keepsoft_loading .layerContent .subwrap .layertext span{float:left;line-height: 32px;}
+#keepsoft_loading .layerContent .subwrap .layertext span.loadicon{width: 32px;height: 32px;background: url('images/load.gif') no-repeat left;padding-right: 5px; margin-left:10px;}
+
+/*提示*/
+#keepsoft_tooltip .wrapTitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px;}
+#keepsoft_tooltip .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin:0 0 0 -5px;height: 29px;}
+#keepsoft_tooltip .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin:0 -6px 0 0;height: 29px;}
+#keepsoft_tooltip .wrapTitle .closed{float:right;width: 19px;height: 17px;background: url("images/tooltip_icon.png") 0 0 no-repeat;margin-top: 6px;padding-right: 10px;cursor: pointer;}
+#keepsoft_tooltip .wrapTitle .closed:hover{background-position: 0 -17px;}
+#keepsoft_tooltip .wrapTitle .layertitle{float:left;height: 25px;line-height:25px;margin-top: 2px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+#keepsoft_tooltip .wrapTitle .layertitle .layertitle.selected{height: 24px;line-height: 24px;padding-left: 0;}
+
+#keepsoft_tooltip .layerContent{text-align: left;border-left:solid 1px #b7b6b4;border-right:solid 1px #b7b6b4;color:#444444; display:table; position:relative; overflow:hidden;background: #fff;}
+#keepsoft_tooltip .layerContent .subwrap{ *position:absolute; top:50%; left:0; display:table-cell; vertical-align:middle;}
+#keepsoft_tooltip .layerContent .subwrap .layertext{position: relative; top:-50%;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span{float:left;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span.tipicon{width: 30px;height: 30px;background: url("images/tooltip_icon.png") no-repeat;float:left;margin-left:20px;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span.tiperr{background-position: 0 -68px;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span.tipsucess{background-position: 0 -100px;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span.tip{background-position: 0 -36px;}
+#keepsoft_tooltip .layerContent .subwrap .layertext span.tipcontent{margin-left:10px;line-height: 20px;}
+
+#keepsoft_tooltip .tooltipbtnwrap{padding-top: 0;height: 30px;border:solid 1px #b7b6b4;background:#dce9f3;border-top:0;padding-right: 15px;}
+#keepsoft_tooltip .tooltipbtnwrap .qx{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -180px no-repeat;margin-top: 4px;margin-left: 6px;cursor:pointer;}
+#keepsoft_tooltip .tooltipbtnwrap .qx:hover{background-position: 0 -204px;}
+#keepsoft_tooltip .tooltipbtnwrap .qd{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -132px no-repeat;margin-top: 4px;cursor:pointer;}
+#keepsoft_tooltip .tooltipbtnwrap .qd:hover{background-position: 0 -156px;}
+
+/**/
+#keepsoft_dialog .wrapTitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px;}
+#keepsoft_dialog .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin:0 0 0 -5px;height: 29px;}
+#keepsoft_dialog .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin:0 -6px 0 0;height: 29px;}
+#keepsoft_dialog .wrapTitle .closed{float:right;width: 19px;height: 17px;background: url("images/tooltip_icon.png") 0 0 no-repeat;margin-top: 6px;padding-right: 10px;cursor: pointer;}
+#keepsoft_dialog .wrapTitle .closed:hover{background-position: 0 -17px;}
+#keepsoft_dialog .wrapTitle .layertitle{float:left;height: 25px;line-height:25px;margin-top: 2px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+#keepsoft_dialog .wrapTitle .layertitle .layertitle.selected{height: 24px;line-height: 24px;padding-left: 0;}
+
+#keepsoft_dialog .layerContent{text-align: left;border-left:solid 1px #b7b6b4;border-right:solid 1px #b7b6b4;color:#444444; display:table; position:relative; overflow:hidden;background: #fff;}
+#keepsoft_dialog .layerContent .subwrap{ *position:absolute; top:50%; left:0; display:table-cell; vertical-align:middle;}
+#keepsoft_dialog .layerContent .subwrap .layertext{position: relative; top:-50%;}
+#keepsoft_dialog .layerContent .subwrap .layertext span{float:left;}
+#keepsoft_dialog .layerContent .subwrap .layertext span.tipicon{width: 30px;height: 30px;background: url("images/tooltip_icon.png") no-repeat;float:left;margin-left:20px;}
+#keepsoft_dialog .layerContent .subwrap .layertext span.tiperr{background-position: 0 -68px;}
+#keepsoft_dialog .layerContent .subwrap .layertext span.tipsucess{background-position: 0 -100px;}
+#keepsoft_dialog .layerContent .subwrap .layertext span.tip{background-position: 0 -36px;}
+#keepsoft_dialog .layerContent .subwrap .layertext span.tipcontent{margin-left:10px;line-height: 20px;}
+
+#keepsoft_dialog .tooltipbtnwrap{padding-top: 0;height: 30px;border:solid 1px #b7b6b4;background:#dce9f3;border-top:0;padding-right: 15px;}
+#keepsoft_dialog .tooltipbtnwrap .qx{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -180px no-repeat;margin-top: 4px;margin-left: 6px;cursor:pointer;}
+#keepsoft_dialog .tooltipbtnwrap .qx:hover{background-position: 0 -204px;}
+#keepsoft_dialog .tooltipbtnwrap .qd{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -132px no-repeat;margin-top: 4px;cursor:pointer;}
+#keepsoft_dialog .tooltipbtnwrap .qd:hover{background-position: 0 -156px;}
+
+/*内容*/
+#keepsoft_iframe_{background: #fff;}
+#keepsoft_iframe_ .wrapTitle{height: 28px;background:url("images/k__01.png") repeat-x;}
+#keepsoft_iframe_ .wrapTitle .layerleft{float: left;width: 5px;padding: 0;margin:0;height: 28px;}
+#keepsoft_iframe_ .wrapTitle .layerright{float: right;width: 6px;padding: 0;margin:0;height: 28px;}
+#keepsoft_iframe_ .wrapTitle .closed{float:right;width: 29px;height: 17px;background: url("images/icon.png") 0 -36px no-repeat;margin-top: 6px;cursor: pointer;}
+#keepsoft_iframe_ .wrapTitle .closed:hover{background-position: 0 -53px;}
+#keepsoft_iframe_ .wrapTitle .layertitle{float:left;height: 24px;line-height: 24px; padding:0 5px;cursor: pointer;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px}
+#keepsoft_iframe_ .wrapTitle .layertitle.selected{border-bottom-width: 0;color: #444444;height: 24px;line-height: 24px; padding:0;_background: #f3f3f3;_padding: 0 9px;}
+#keepsoft_iframe_ .wrapTitle .layertitle.selected .r_1{height: 1px;overflow: hidden;padding: 0 7px;background: #e0e0e0;margin:0 2px;}
+#keepsoft_iframe_ .wrapTitle .layertitle.selected .r_2{height: 1px;overflow: hidden;padding: 0 8px;background: #f3f3f3;margin:0 1px;}
+#keepsoft_iframe_ .wrapTitle .layertitle.selected .r_3{height: 22px;overflow: hidden;padding: 0 9px;background: #f3f3f3;line-height: 22px;border: solid 1px #e0e0e0;border-bottom-width: 0;border-top-width: 0}
+#keepsoft_iframe_ .layerContent{border: solid 3px #488ec7;border-top-width: 0; }

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jxcoj/!svn/ver/229/mvcjxc/src/com/oj/jxc/service
+END
+SShopOrdItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SShopOrdItemService.java
+END
+SUserProfileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/221/mvcjxc/src/com/oj/jxc/service/SUserProfileService.java
+END
+SUserRoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jxcoj/!svn/ver/132/mvcjxc/src/com/oj/jxc/service/SUserRoleService.java
+END
+SRoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/137/mvcjxc/src/com/oj/jxc/service/SRoleService.java
+END
+SProdLimitService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jxcoj/!svn/ver/139/mvcjxc/src/com/oj/jxc/service/SProdLimitService.java
+END
+SBandService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SBandService.java
+END
+SProdPropService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jxcoj/!svn/ver/33/mvcjxc/src/com/oj/jxc/service/SProdPropService.java
+END
+SBizuserBandService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SBizuserBandService.java
+END
+SGoodsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/229/mvcjxc/src/com/oj/jxc/service/SGoodsService.java
+END
+SProdFixPropService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/202/mvcjxc/src/com/oj/jxc/service/SProdFixPropService.java
+END
+SUserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/221/mvcjxc/src/com/oj/jxc/service/SUserService.java
+END
+SShopOrdService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jxcoj/!svn/ver/226/mvcjxc/src/com/oj/jxc/service/SShopOrdService.java
+END
+SmsService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SmsService.java
+END
+CacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/CacheService.java
+END
+STypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/service/STypeService.java
+END
+SShopCartService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SShopCartService.java
+END
+SRegionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jxcoj/!svn/ver/146/mvcjxc/src/com/oj/jxc/service/SRegionService.java
+END
+SProdDefService.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SProdDefService.java
+END
+SDictService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/184/mvcjxc/src/com/oj/jxc/service/SDictService.java
+END
+SShopOrdItemPartService.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jxcoj/!svn/ver/33/mvcjxc/src/com/oj/jxc/service/SShopOrdItemPartService.java
+END
+SBizuserRegionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/service/SBizuserRegionService.java
+END
+BaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jxcoj/!svn/ver/184/mvcjxc/src/com/oj/jxc/service/BaseService.java
+END
+SBizRegionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jxcoj/!svn/ver/152/mvcjxc/src/com/oj/jxc/service/SBizRegionService.java
+END

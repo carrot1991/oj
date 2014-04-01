@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/jxcoj/!svn/ver/229/mvcjxc/src
+END
+spring-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jxcoj/!svn/ver/183/mvcjxc/src/spring-servlet.xml
+END
+jdbc-lh-home.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/jxcoj/!svn/ver/184/mvcjxc/src/jdbc-lh-home.properties
+END
+jdbc-remote.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/jxcoj/!svn/ver/184/mvcjxc/src/jdbc-remote.properties
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jxcoj/!svn/ver/35/mvcjxc/src/applicationContext.xml
+END
+cfg.properties
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/jxcoj/!svn/ver/2/mvcjxc/src/cfg.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/jxcoj/!svn/ver/2/mvcjxc/src/log4j.properties
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/jxcoj/!svn/ver/177/mvcjxc/src/jdbc.properties
+END

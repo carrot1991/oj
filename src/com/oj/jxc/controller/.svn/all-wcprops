@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/jxcoj/!svn/ver/226/mvcjxc/src/com/oj/jxc/controller
+END
+SBizuserBandController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/SBizuserBandController.java
+END
+SGoodsController.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/SGoodsController.java
+END
+SProdFixPropController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jxcoj/!svn/ver/187/mvcjxc/src/com/oj/jxc/controller/SProdFixPropController.java
+END
+SShopOrdController.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jxcoj/!svn/ver/226/mvcjxc/src/com/oj/jxc/controller/SShopOrdController.java
+END
+SUserController.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jxcoj/!svn/ver/221/mvcjxc/src/com/oj/jxc/controller/SUserController.java
+END
+STypeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/STypeController.java
+END
+SShopCartController.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/jxcoj/!svn/ver/211/mvcjxc/src/com/oj/jxc/controller/SShopCartController.java
+END
+SProdDefController.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/SProdDefController.java
+END
+SDictController.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jxcoj/!svn/ver/104/mvcjxc/src/com/oj/jxc/controller/SDictController.java
+END
+SBizuserRegionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/SBizuserRegionController.java
+END
+BaseController.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/jxcoj/!svn/ver/24/mvcjxc/src/com/oj/jxc/controller/BaseController.java
+END
+SBizRegionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jxcoj/!svn/ver/178/mvcjxc/src/com/oj/jxc/controller/SBizRegionController.java
+END
+SShopOrdItemController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jxcoj/!svn/ver/215/mvcjxc/src/com/oj/jxc/controller/SShopOrdItemController.java
+END
+SUserProfileController.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/jxcoj/!svn/ver/221/mvcjxc/src/com/oj/jxc/controller/SUserProfileController.java
+END
+SUserRoleController.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jxcoj/!svn/ver/29/mvcjxc/src/com/oj/jxc/controller/SUserRoleController.java
+END
+SRoleController.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jxcoj/!svn/ver/29/mvcjxc/src/com/oj/jxc/controller/SRoleController.java
+END
+SRegionContoller.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/jxcoj/!svn/ver/146/mvcjxc/src/com/oj/jxc/controller/SRegionContoller.java
+END
+SProdLimitController.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/jxcoj/!svn/ver/169/mvcjxc/src/com/oj/jxc/controller/SProdLimitController.java
+END
+SBandController.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/controller/SBandController.java
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jxcoj/!svn/ver/17/mvcjxc/src/com/oj/jxc/controller/readme.txt
+END
+SProdPropController.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/jxcoj/!svn/ver/31/mvcjxc/src/com/oj/jxc/controller/SProdPropController.java
+END

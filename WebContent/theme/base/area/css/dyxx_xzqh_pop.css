@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{overflow: hidden;}
+/* 行政区划-历史灾害-上传 */
+.cl{ clear:both;}
+.cont{width:460px; height:220px;border:1px solid #c8c8c8;overflow: hidden;}
+.wb_m{margin-left:30px;}
+.wb_m .tex{float:left;height:24px; line-height:24px;}
+.wb_m .btn{width:60px; margin-left:10px; float:left;}
+.wb_m .btn .anniu{height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; text-decoration:none; color:#444; display:block;}
+.m_5{margin-left:60px;}
+
+
+
+.wenben_icon{ background:url(../images/wenben_icon.png) no-repeat; height:18px;  }
+.tupian_icon{ background:url(../images/tupian_icon.png) no-repeat; height:18px;}
+.shipin_icon{ background:url(../images/shipin_icon.png) no-repeat; height:16px; }
+.guanbi_icon{ background:url(../images/guanbi_icon.png) no-repeat; height:12px; width:12px; cursor:pointer;}
+
+
+
+/*btn  */
+.queding_icon{ background:url(../images/btn_icon.png) 0 -50px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.queding_icon:hover{background-position: 0 -75px;}
+.quxiao_icon{ background:url(../images/btn_icon.png) 0 0px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.quxiao_icon:hover{background-position: 0 -25px;}
+.baocun_icon{ background:url(../images/btn_icon.png) 0 -100px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.baocun_icon:hover{background-position: 0 -125px;}
+
+
+

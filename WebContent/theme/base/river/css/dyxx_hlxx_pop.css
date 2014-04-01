@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{overflow: hidden;}
+
+/*河流信息-属性  */
+#bc4{ background:#f3f3f3;}
+.sousuo{padding:10px 15px; border-bottom:1px solid #ccc; width:500px;}
+.sousuo .tex{height:24px; line-height:24px; float:left;}
+.sousuo .btn{height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block;}
+.kuang{ width:500px; height:155px;border-bottom:1px solid #CCC; padding:0 15px;}
+.kuang .name{height:20px;  padding:10px 20px 0 0; float:left;}
+.kuang input{ vertical-align:-2px;}
+.kuang .name .dy{ padding-left:3px;}
+.tiaojian{background:#f3f3f3;margin:0 2px; height:30px; line-height:30px;width:223px;}
+.tiaojian input{ margin-left:15px; vertical-align:-2px;}
+.btn{border-top:1px solid #dddddd; margin:0 2px;}
+
+
+/*btn  */
+.queding_icon{ background:url(../images/btn_icon.png) 0 -50px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.queding_icon:hover{background-position: 0 -75px;}
+.quxiao_icon{ background:url(../images/btn_icon.png) 0 0px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.quxiao_icon:hover{background-position: 0 -25px;}
+.baocun_icon{ background:url(../images/btn_icon.png) 0 -100px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.baocun_icon:hover{background-position: 0 -125px;}
+
+/*列表页码  */
+div.digg{padding:0 10px; text-align:center; float:right;  }
+div.digg a{ border:1px solid #aaaadd; padding: 2px 5px;  text-decoration:none; color:#000;  }
+div.digg a:hover{ border:1px solid #417eb7; color:#417eb7;  }
+div.digg a:active{ border:1px solid #417eb7; color:#000; }
+div.digg span.current{ border:1px solid #417eb7; padding: 2px 5px; font-weight:bold; color:#fff; background-color:#417eb7; }
+div.digg span.disabled{ border:1px solid #eee; padding: 2px 5px; }

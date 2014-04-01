@@ -1,0 +1,7 @@
+登录：
+	地址映射:user/login
+		请求: loginName,password
+		处理：OJ_JXC_USER 设置进session中。
+		返回: data.success
+	
+	

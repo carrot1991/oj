@@ -1,0 +1,83 @@
+.xubox_moves{border:3px solid #333; cursor:move; opacity:0.7; filter:alpha(opacity=70);position:absolute;}
+
+.keepsoft_iframe{background: #fff;}
+.keepsoft_iframe .layertitle{height: 29px;background:url("images/k__01.png") repeat-x;padding-left: 5px;}
+.keepsoft_iframe .layertitle span{float:left;height: 25px;line-height: 25px; padding:0 5px;cursor: pointer;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+.keepsoft_iframe .layertitle span.selected{border-bottom-width: 0;color: #444444;height: 24px;line-height: 24px; padding:0;}
+.keepsoft_iframe .layertitle span.selected .r_0{height: 1px;overflow: hidden;padding: 0 7px;background: #e0e0e0;margin:0 2px;}
+.keepsoft_iframe .layertitle span.selected .r_1{height: 1px;overflow: hidden;padding: 0 8px;background: #f3f3f3;margin:0 1px;}
+.keepsoft_iframe .layertitle span.selected .r_2{height: 22px;overflow: hidden;padding: 0 9px;background: #f3f3f3;line-height: 22px;border: solid 1px #e0e0e0;border-bottom-width: 0;border-top-width: 0}
+.keepsoft_iframe .layertitle span.closed{float:right;width: 29px;height: 17px;background: url("images/icon.png") 0 -36px no-repeat;margin-top: 6px;}
+.keepsoft_iframe .layertitle span.closed:hover{background-position: 0 -53px;}
+.keepsoft_iframe .iframe{border: solid 3px#488ec7;border-top-width: 0;margin-top: -1px; }
+
+
+.keepsoft_1_iframe{}
+.keepsoft_1_iframe .wrapTitle{}
+.keepsoft_1_iframe .wrapTitle .layertitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px 0 5px; }
+.keepsoft_1_iframe .wrapTitle .layertitle span{float:left;height: 25px;line-height: 25px; padding:0 15px 0 5px;cursor: pointer;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+.keepsoft_1_iframe .wrapTitle .layertitle span.selected{height: 24px;line-height: 24px;padding-left: 0;}
+.keepsoft_1_iframe .wrapTitle .layertitle span.closed{float:right;width: 19px;height: 17px;background: url("images/icon.png") 0 -1px no-repeat;margin-top: 6px;padding-right: 0;}
+.keepsoft_1_iframe .wrapTitle .layertitle span.closed:hover{background-position: 0 -18px;}
+.keepsoft_1_iframe .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_1_iframe .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin: 0;height: 29px;}
+
+.keepsoft_alert{}
+.keepsoft_alert .wrapTitle{}
+.keepsoft_alert .wrapTitle .layertitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px 0 5px; }
+.keepsoft_alert .wrapTitle .layertitle span{float:left;height: 25px;line-height: 25px; padding:0 15px;cursor: pointer;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+.keepsoft_alert .wrapTitle .layertitle span.selected{height: 24px;line-height: 24px;padding-left: 0;}
+.keepsoft_alert .wrapTitle .layertitle span.closed{float:right;width: 19px;height: 17px;background: url("images/icon.png") 0 -1px no-repeat;margin-top: 6px;padding-right: 0;}
+.keepsoft_alert .wrapTitle .layertitle span.closed:hover{background-position: 0 -18px;}
+.keepsoft_alert .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_alert .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_alert .alertContent,.keepsoft_alert .alert_btnwrap{background: #f3f3f3;padding: 10px 0;}
+.keepsoft_alert .alertContent{text-align: left;height: 40px;line-height: 20px;line-height: 40px;}
+.keepsoft_alert .alertContent span{width: 32px;height: 32px;background: url("images/icon.png") 0 -264px no-repeat;float:left;margin: 5px 10px 0 10px;}
+.keepsoft_alert .alert_btnwrap{padding-top: 0;padding-right: 15px;height: 25px;}
+.keepsoft_alert .alert_btnwrap span{width:58px;height: 25px;background:url("images/icon.png") no-repeat 0 -164px;margin-left: 120px;cursor: pointer;float:right;  }
+
+.keepsoft_confirm{}
+.keepsoft_confirm .wrapTitle{}
+.keepsoft_confirm .wrapTitle .layertitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px 0 5px; }
+.keepsoft_confirm .wrapTitle .layertitle span{float:left;height: 25px;line-height: 25px; padding:0 15px;cursor: pointer;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+.keepsoft_confirm .wrapTitle .layertitle span.selected{height: 24px;line-height: 24px;padding-left: 0;}
+.keepsoft_confirm .wrapTitle .layertitle span.closed{float:right;width: 19px;height: 17px;background: url("images/icon.png") 0 -1px no-repeat;margin-top: 6px;padding-right: 0;}
+.keepsoft_confirm .wrapTitle .layertitle span.closed:hover{background-position: 0 -18px;}
+.keepsoft_confirm .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_confirm .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_confirm .confirmContent,.keepsoft_confirm .confirmbtnwrap{background: #f3f3f3;padding: 10px 0;}
+.keepsoft_confirm .confirmContent{text-align: left;height: 40px;line-height: 40px;}
+.keepsoft_confirm .confirmContent span{width: 32px;height: 32px;background: url("images/icon.png") 0 -264px no-repeat;float:left;margin: 5px 10px 0 10px;}
+.keepsoft_confirm .confirmbtnwrap{padding-top: 0;padding-right: 15px;height: 25px;}
+.keepsoft_confirm .confirmbtnwrap span{width:58px;height: 25px;background:url("images/icon.png") no-repeat ;cursor: pointer;float:right;  }
+.keepsoft_confirm .confirmbtnwrap span#btn{background-position: 0 -164px;}
+.keepsoft_confirm .confirmbtnwrap span#chancel{background-position: 0 -114px;margin-left: 10px;}
+
+/*提示窗体新样式*/
+.keepsoft_tooltip .wrapTitle .layertitle{height: 29px;background:url("images/bg_m.png") repeat-x;margin: 0 5px 0 5px; }
+.keepsoft_tooltip .wrapTitle .layertitle span{float:left;height: 25px;line-height: 25px; padding:0 0px;margin-top: 4px;display: inline-table;color: #FFF;font-weight: bold;margin-left: 10px;}
+.keepsoft_tooltip .wrapTitle .layertitle span.selected{height: 24px;line-height: 24px;padding-left: 0;}
+.keepsoft_tooltip .wrapTitle .layertitle span.closed{cursor: pointer;float:right;width: 19px;height: 17px;background: url("images/tooltip_icon.png") 0 0 no-repeat;margin-top: 6px;padding-right: 0;}
+.keepsoft_tooltip .wrapTitle .layertitle span.closed:hover{background-position: 0 -17px;}
+.keepsoft_tooltip .wrapTitle .layerleft{float: left;width: 5px;background: url("images/bg_l.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_tooltip .wrapTitle .layerright{float: right;width: 6px;background: url("images/bg_r.png");padding: 0;margin: 0;height: 29px;}
+.keepsoft_tooltip .tooltipcontent{text-align: left;border-left:solid 1px #b7b6b4;border-right:solid 1px #b7b6b4;color:#444444; display:table; _position:relative;overflow:hidden;background: #fff;}
+.keepsoft_tooltip .tooltipcontent .subwrap{ vertical-align:middle; display:table-cell; _position:absolute;_top:50%;}
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent{ _position:relative;_top:-50%;}
+
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent span{float:left;}
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent span.tipicon{width: 30px;height: 30px;background: url("images/tooltip_icon.png") no-repeat;float:left;margin-left:20px;}
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent span.tiperr{background-position: 0 -68px;}
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent span.tipsucess{background-position: 0 -100px;}
+.keepsoft_tooltip .tooltipcontent .subwrap .layercontent span.tip{background-position: 0 -36px;}
+.keepsoft_tooltip .tooltipcontent  .subwrap .layercontent span.tipcontent{margin-left:10px;line-height: 30px;}
+
+.keepsoft_tooltip .tooltipbtnwrap{padding-top: 0;padding-right: 15px;height: 30px;border:solid 1px #b7b6b4;background:#dce9f3;border-top:0;}
+.keepsoft_tooltip .tooltipbtnwrap .qx{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -180px no-repeat;margin-top: 4px;margin-left: 6px;cursor:pointer;}
+.keepsoft_tooltip .tooltipbtnwrap .qx:hover{background-position: 0 -204px;}
+.keepsoft_tooltip .tooltipbtnwrap .qd{float:right;width:50px;height:24px;background: url("images/tooltip_icon.png") 0 -132px no-repeat;margin-top: 4px;cursor:pointer;}
+.keepsoft_tooltip .tooltipbtnwrap .qd:hover{background-position: 0 -156px;}
+
+
+

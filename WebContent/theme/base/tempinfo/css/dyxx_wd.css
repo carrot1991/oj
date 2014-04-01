@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.n_border{border: solid 1px #bababa;padding-left: 1px;background: #eeeeee;}
+
+/* 实时水情信息-历史水情信息 */
+.conter{  height:400px; }
+.l_tubiao{ float:left;}
+.l_tubiao .box{ height:390px; width:410px; background:#CCC;}
+.l_tubiao .xinxi{ width:310px;  margin:10px;}
+.l_tubiao .xinxi p{ height:20px; line-height:20px;}
+.l_tubiao .xinxi span{ color:#666;}
+
+.r_liebiao{ height:400px; width:238px; float:left;}
+.r_liebiao .xz{ height:140px;width:242px;border:1px solid #c8c8c8;border-bottom:none;}
+.r_liebiao .xz .xz_top{ height:30px; line-height:30px; background:#f4f3f0;border-bottom:1px solid #c8c8c8;}
+.r_liebiao .xz .xz_nr{margin:10px 20px;}
+.r_liebiao .xz .xz_nr .btn{height:24px; width:40px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block; }
+.r_liebiao .xz .xz_nr p{margin-top:10px;}
+.r_liebiao .xz .xz_nr p a{ text-decoration:none;color:#418bc7;}
+.r_liebiao .xz .xz_nr p a:hover{ text-decoration: underline;color:#418bc7;}
+.r_liebiao .c1 {text-align:center;}
+.r_liebiao .c1 td{ border:1px solid #c8c8c8; height:30px; line-height:30px; color:#444; background:#f4f3f0;}
+.r_liebiao .c2 { text-align:center; border:1px solid #c8c8c8; border-top:none;width:244px;}
+.r_liebiao .c2  tr{ height:30px;}
+.r_liebiao .c2  th{ border:1px solid #c8c8c8; height:30px; line-height:30px; color:#444;}
+.r_liebiao .c2  td{ height:24px; line-height:24px;color:#666;}
+#c_bg{background:#e7f4f5;}
+
+/*实时水情-属性  */
+.shuxing{margin:5px 0 0px 40px;}
+.shuxing td{ padding-top:7px;}
+.anniu{ margin:0 auto;width:130px;}
+.anniu .btn{ height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block;}
+.anniu a{ text-decoration:none;color:#418bc7;}
+.anniu a:hover{ text-decoration: underline;color:#418bc7;}
+
+/*列表页码  */
+div.digg{padding:0 10px; text-align:center; float:right; }
+div.digg a{ border:1px solid #aaaadd; padding: 2px 5px;  text-decoration:none; color:#000;  }
+div.digg a:hover{ border:1px solid #417eb7; color:#417eb7;  }
+div.digg a:active{ border:1px solid #417eb7; color:#000; }
+div.digg span.current{ border:1px solid #417eb7; padding: 2px 5px; font-weight:bold; color:#fff; background-color:#417eb7; }
+div.digg span.disabled{ border:1px solid #eee; padding: 2px 5px; }
+
+
+
+

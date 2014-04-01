@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/commons
+END
+LoginedUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jxcoj/!svn/ver/184/mvcjxc/src/com/oj/jxc/commons/LoginedUser.java
+END
+SmsClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/commons/SmsClient.java
+END
+Cn2Spell.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/commons/Cn2Spell.java
+END
+ShAdapterPropertyPlaceholderConfigurer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/jxcoj/!svn/ver/22/mvcjxc/src/com/oj/jxc/commons/ShAdapterPropertyPlaceholderConfigurer.java
+END
+ContextLoaderListenerOverWrite.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/jxcoj/!svn/ver/33/mvcjxc/src/com/oj/jxc/commons/ContextLoaderListenerOverWrite.java
+END
+SystemContextUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/jxcoj/!svn/ver/33/mvcjxc/src/com/oj/jxc/commons/SystemContextUtils.java
+END
+CnUpperCaser.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/commons/CnUpperCaser.java
+END
+PdfExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/commons/PdfExport.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jxcoj/!svn/ver/22/mvcjxc/src/com/oj/jxc/commons/Constants.java
+END

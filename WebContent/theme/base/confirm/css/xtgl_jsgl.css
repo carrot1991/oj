@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cl{ clear:both;}
+/* 系统管理-角色管理*/
+.conter{ width:700px; height:400px;}
+.l_list{ float:left;}
+.l_list .shu{ height:350px; width:260px; background:#ffffff; border-right:1px solid #dddddd; border-top:1px  solid #dddddd;}
+.l_list .title{ width:260px; height:30px; border-right:1px  dotted #dddddd;}
+.l_list .title .lx{ padding-top:10px; padding-left:10px; color:#1f8ae0;}
+.l_list .title span{ color:#666;}
+
+.r_liebiao{ height:400px; width:439px; float:left;}
+.r_liebiao .title{ border-bottom:1px solid #dddddd;}
+.caozuo{ margin:10px 20px; width:399px;}
+.caozuo td{ padding:8px 10px 5px 20px;}
+.caozuo td .name{ text-decoration:none; color:#ff9b30;}
+.caozuo td .name:hover{ text-decoration: underline; color:#ff9b30;}
+.caozuo td .name:active{ text-decoration: underline; color:#ff9b30;}
+.caozuo td .cz{ text-decoration:none; color:#1f8ae0;}
+.caozuo td .cz:hover{ text-decoration: underline; color:#1f8ae0;}
+.caozuo td .cz:active{ text-decoration: underline; color:#1f8ae0;}
+.tianjian_icon{ background:url(../images/xj_icon.png)  no-repeat; height:17px; padding-left:20px; margin:8px 0 5px 10px;}
+#c_bg{background:#e7f4f5;}
+
+
+
+.anniu{ margin:0 auto;width:30px; margin-top:20px;}
+.anniu .btn{ height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block;}
+.anniu a{ text-decoration:none;color:#418bc7;}
+.anniu a:hover{ text-decoration: underline;color:#418bc7;}
+
+/*系统管理-角色管理  删除提示 */
+.box_cont{width:280px;  border:1px solid #666;}
+.box_cont_list{ padding:20px 30px;}
+.box_cont_list table{ font-size:12px;}
+.tishi_icon{ background: url(../images/ts_icon.png) no-repeat; width:34px; height:33px;line-height:40px; display:block;}
+
+/*btn  */
+.queding_icon{ background:url(../images/btn_icon.png) 0 -50px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.queding_icon:hover{background-position: 0 -75px;}
+.quxiao_icon{ background:url(../images/btn_icon.png) 0 0px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.quxiao_icon:hover{background-position: 0 -25px;}
+.baocun_icon{ background:url(../images/btn_icon.png) 0 -100px;width:58px; height:25px;  display:block;overflow: hidden; cursor:pointer; }
+.baocun_icon:hover{background-position: 0 -125px;}
+
+/*列表页码  */
+div.digg{padding:0 10px; text-align:center; float:right; }
+div.digg a{ border:1px solid #aaaadd; padding: 2px 5px;  text-decoration:none; color:#000;  }
+div.digg a:hover{ border:1px solid #417eb7; color:#417eb7;  }
+div.digg a:active{ border:1px solid #417eb7; color:#000; }
+div.digg span.current{ border:1px solid #417eb7; padding: 2px 5px; font-weight:bold; color:#fff; background-color:#417eb7; }
+div.digg span.disabled{ border:1px solid #eee; padding: 2px 5px; }
+
+
+
+

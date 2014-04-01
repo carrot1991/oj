@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:url(images/style1/bg.png);}
+.csschg{ width:12px; height:12px; margin-top:10px; display:inline-block; border:1px solid #000;}
+
+#top{ width:100%; height:45px;  background:url(images/style1/top_bg.png) bottom left;}
+#logo{ width:180px; height:45px; background:url(images/style1/logo.jpg) no-repeat;
+font-size:16px; color:#FFF; line-height:42px; padding-left:100px;}
+#t_nav{ width:680px; height:34px;}
+
+#t_nav a{ height:35px; padding:0 25px; display:inline-block; text-align:center; line-height:35px; color:#FFF; font-size:12px;}
+#t_nav a:hover{ background: url(images/style1/nav_bg.png) repeat-x}
+
+  .inf_visiter{ width:100%; height:66px;  color:#444;  background:url(images/style1/nav_main_bg.png) repeat-x 0 bottom; }
+  .inf_visiter_img{ width:24px; height:24px; margin-top:9px; margin-left:14px; border:1px solid #1C3E59; background:#346fa0;padding:1px;}
+  .inf_visiter_doc{ width:auto; padding-left:15px; height:45px;}
+  .inf_visiter_doc h2{ font-size:12px; line-height:45px; padding-right:10px; color:#cddfee; float:left; display:inline-block}
+  .inf_visiter_doc span,.inf_visiter_doc a{ font-size:12px; line-height:45px; padding:0 10px; color:#cddfee;}
+  .inf_visiter_doc a{ padding:3px 6px; cursor:pointer; color:#cddfee;}
+  .inf_visiter_doc a span{ padding:0 4px; color:#F60}
+  .inf_visiter_doc a:hover{ background:#069; color:#cddfee}
+  .inf_visiter_doc a:hover span{ color:#FFF;padding:0 4px;}
+ 
+  ul.nav{width:488px;}
+  ul.nav li{ width:120px;  float:left; display:inline; border-right:1px solid #d6d7d9; border-left:1px solid #f9f9fb;}
+  ul.nav a{width:120px;  display:block; cursor:pointer}
+  ul.nav a span{ width:120px; height:30px; display:block; text-align:center; font-size:14px; color:#036; padding-top:55px;}
+  
+  a.scl{ background:url(images/style1/nav_cio.png) 12px 0 no-repeat}
+  a.mail{ background:url(images/style1/nav_cio.png) -110px 0 no-repeat}
+  a.zpl{ background:url(images/style1/nav_cio.png) -230px 0 no-repeat}
+  a.prog{ background:url(images/style1/nav_cio.png) -350px 0 no-repeat}
+  
+
+#page{ width:auto; padding-top:1px; padding-bottom:1px; position:relative}
+/** left style **/
+#sidemenu{height:100%; background:url(images/style1/lf_bg.gif) right top repeat-y;}
+h2#sidetitle{ width:190px;height:28px;  line-height:28px; background:url(images/style1/lf_tlbg.jpg) no-repeat right top; border-bottom:1px solid #c2d0e0; }
+h2#sidetitle span{height:36px; font-size:16px; color:#141d2e;padding-left:61px;background:url(images/style1/lf_ico1.gif) no-repeat 40px 5px;  }
+ul#sidelist{ width:206px;}
+ul#sidelist li{ width:206px; background:url(images/style1/lf_li_bg_normal.jpg) no-repeat left top; border-bottom:1px solid #c2d0e0;  }
+ul#sidelist li a{ height:38px; display:block; line-height:38px; font-size:14px; color:#397597; font-weight:bold; padding-left:65px; background:url(images/style1/li_ico.png) no-repeat 38px 15px;}
+ul#sidelist li a:hover,ul#sidelist li a.leftactive{ background:#397597 url(images/style1/li_ico.png) no-repeat 38px 15px; color:#FFF;}
+
+/**right style**/
+
+.position{ width:auto; height:28px; line-height:28px; background:#e6edf6; font-size:12px; font-weight:normal; color:#141d2e; font-family:"宋体";}
+div.position span.ps{ padding-left:40px; display:block; backgrsound:url(images/style1/li_ico.png) 20px 10px no-repeat; height:28px; line-height:28px;}
+
+/*right 内容样式*/
+table{}
+
+
+
+ 

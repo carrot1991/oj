@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+#c1{color:#999999;}
+#c2{}
+
+
+
+.c_top{min-width: 1000px;padding:3px 0;margin-top: 30px;}
+.c_top .title{width:300px;margin-left:10px;}
+.c_top .title i{background:url(../images/qxli_icon.png) no-repeat 0 0; height:17px;width:25px;float:left;}
+.c_top .title strong{color:#444; padding-left:5px;}
+.c_top .jinru{float:right;padding-right:15px;}
+.c_top .jinru a{ text-decoration:none; color:#2470cd;}
+.c_top .jinru a:hover{ text-decoration: underline; color:#2470cd;}
+.tishi{ margin:5px;}
+.tishi .nr{padding:0 3px ; color:#F00;}
+.tishi .bs{color:#555555;}
+
+
+
+
+/* 厅级表格 */
+.c_box{ border:1px solid #ccc; margin:5px;min-width: 990px;}
+.c_box table{width: 1000px; font-size:14px;min-width: 1000px;}
+.c_box  td{ border:1px solid #ccc;}
+.c_box .dibiao{ background:url(../images/qxlb_icon02.png) no-repeat ;  height:26px;  height:30px;   margin-left:20px; }
+.c_box .dibiao .shiming{padding-left:30px;  line-height:30px; font-weight:bold; color:#333; }
+
+
+.c_box .diqu li{font-size:14px; height:20px; line-height:20px; padding:15px 15px; float:left;}
+.c_box .diqu li a{text-decoration:none; color:#145891;}
+.c_box .diqu li a:hover{ text-decoration: underline;color:#145891;}
+.c_box .diqu li a:active{ text-decoration: underline;color:#145891;}
+
+
+/* 区级表格 */
+
+.q_box { border:1px solid #ccc; margin:5px;min-width:1000px; }
+.q_box .l_tt{ height:80px;width:120px; background:url(../images/qxlb_icon03.png)  no-repeat center 30px; text-align:center; padding-bottom:5px; float:left;}
+.q_box .l_tt .shiming{ margin-top:95px; font-size:14px; font-weight:bold; }
+.q_box .r{ border-left:1px solid #ccc;margin-left:120px; min-width: 878px;}
+.q_box .r a{ text-decoration:none; color:#2470cd;}
+.q_box .r a:hover{ text-decoration: underline; color:#2470cd;}
+.q_box .r .r_yy{ height:130px; width:125px; background:url(../images/qxlb_icon04.png)  no-repeat center 25px;   text-align:center; padding-bottom:5px; float:left;}
+.q_box .r .r_yy .shiming{  margin-top:105px; font-size:14px;}

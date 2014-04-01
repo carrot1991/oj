@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/entity
+END
+SUserRoleDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SUserRoleDO.java
+END
+SRoleDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SRoleDO.java
+END
+BandDict.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/entity/BandDict.java
+END
+SBandDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/entity/SBandDO.java
+END
+SGoodsParm.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SGoodsParm.java
+END
+SProdFixPropDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/172/mvcjxc/src/com/oj/jxc/entity/SProdFixPropDO.java
+END
+STypeDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/entity/STypeDO.java
+END
+SuggestBuyHist.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/199/mvcjxc/src/com/oj/jxc/entity/SuggestBuyHist.java
+END
+SDictDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SDictDO.java
+END
+SProdDefDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SProdDefDO.java
+END
+SRegionDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SRegionDO.java
+END
+SShopOrdItemPartDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SShopOrdItemPartDO.java
+END
+SBizRegionDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SBizRegionDO.java
+END
+BizContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/entity/BizContact.java
+END
+UserBand.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/entity/UserBand.java
+END
+SShopOrdItemDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SShopOrdItemDO.java
+END
+SUserProfileDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/221/mvcjxc/src/com/oj/jxc/entity/SUserProfileDO.java
+END
+SProdLimitDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jxcoj/!svn/ver/172/mvcjxc/src/com/oj/jxc/entity/SProdLimitDO.java
+END
+SProdPropDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jxcoj/!svn/ver/172/mvcjxc/src/com/oj/jxc/entity/SProdPropDO.java
+END
+SmsOrderForBuyer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SmsOrderForBuyer.java
+END
+SBizuserBandDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SBizuserBandDO.java
+END
+ProdDefWithProp.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/ProdDefWithProp.java
+END
+SGoodsDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SGoodsDO.java
+END
+SCategoryDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/entity/SCategoryDO.java
+END
+SShopOrdDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/jxcoj/!svn/ver/211/mvcjxc/src/com/oj/jxc/entity/SShopOrdDO.java
+END
+SUserDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/SUserDO.java
+END
+BandWithProd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/jxcoj/!svn/ver/203/mvcjxc/src/com/oj/jxc/entity/BandWithProd.java
+END
+BandDictForCheckBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/jxcoj/!svn/ver/222/mvcjxc/src/com/oj/jxc/entity/BandDictForCheckBox.java
+END
+SShopCartDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/jxcoj/!svn/ver/124/mvcjxc/src/com/oj/jxc/entity/SShopCartDO.java
+END
+OrderItem4Print.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/jxcoj/!svn/ver/219/mvcjxc/src/com/oj/jxc/entity/OrderItem4Print.java
+END
+SBizuserRegionDO.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/jxcoj/!svn/ver/7/mvcjxc/src/com/oj/jxc/entity/SBizuserRegionDO.java
+END
+SmsOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/jxcoj/!svn/ver/217/mvcjxc/src/com/oj/jxc/entity/SmsOrder.java
+END

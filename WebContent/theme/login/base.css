@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS reset */
+html{ overflow-y:auto;_overflow-x:hidden; word-break:break-all;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,span,option,select{ margin:0; padding:0; }
+body{ background:#fcfcfc;}
+body,button,input,select,textarea,a { font:12px  '宋体',Arial,Helvetica,sans-serif;}
+h1,h2,h3,h4,h5,h6{ font-size:12px; font-weight:normal; }
+address,cite,dfn,em,var{ font-style:normal; }
+small{ font-size:12px; }
+ul,ol { list-style:none; }
+a{ text-decoration:none }
+a:hover { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset,img { border:0; }
+img{ display:block}
+button,input,select,textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }
+
+input[type="button"]{ cursor:pointer}
+
+a:focus ,input{
+outline:none;
+-moz-outline:none;
+}
+
+/* float */
+.left{ float:left; display:inline;}
+.right{ float:right; display:inline}
+.clr{ clear:both; font-size:0; line-height:0; height:0; visibility:hidden}

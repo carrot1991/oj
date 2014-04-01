@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.n_border{border: solid 1px #cbcbcb;padding-left: 1px;background: #F8F8F8;}
+
+.cl{ clear:both;}
+
+/*河流信息-属性  */
+.conter{ width:620px;  overflow: hidden;}
+.nn{margin:10px 0 0px 40px;}
+.nn td{ padding-top:8px;}
+.anniu{ margin:0 auto;width:130px;}
+.anniu .btn{ height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block;}
+.anniu a{ text-decoration:none;color:#418bc7;}
+.anniu a:hover{ text-decoration: underline;color:#418bc7;}
+
+
+/*河流信息-河流上站点  */
+
+.hl_part{ margin:20px 0 0 40px;}
+.hl_part .tex{  height:20px; margin-left:5px;}
+.hl_part .kuang{ width:550px; height:140px; overflow-y:auto; border:1px solid #CCC; padding:0 5px; background:#ffffff;}
+.hl_part .kuang .name{height:20px; line-height:20px;  padding:0px 3px 0 0; float:left;}
+.tijian_a1_icon{ background: url(../images/xj_icon.png) no-repeat; height:17px;float:right; margin-right:50px;color:#418bc7; padding-left:20px; cursor:pointer; }
+.guanbi_icon{ background:url(../images/guanbi_icon.png) no-repeat; height:12px; width:12px; cursor:pointer; vertical-align: -5px;}

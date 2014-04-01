@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+html,body{overflow: hidden;}
+/* 行政区划 */
+.cl{ clear:both;}
+.conter{ width:730px; height:400px; overflow: hidden;}
+.conter .m_30{margin:30px 0 0 60px;}
+.conter .m_15{margin:15px 0 0 60px;}
+.bg_color{background:#dddddd;}
+
+/*-属性  */
+.shuxing{margin:5px 0 0px 40px;}
+.shuxing td{ padding-top:7px;}
+.shuxing1{margin:20px 0 0px 40px;}
+.shuxing1 td{ padding-top:10px;}
+.shuxing2{margin:10px 0 0px 50px;}
+.shuxing2 td{ padding-top:8px;}
+.anniu{ margin:0 auto;width:130px;}
+.anniu .btn{ height:24px; text-align:center; line-height:24px; border:1px solid #c8c8c8; display:block;}
+.anniu a{ text-decoration:none;color:#418bc7;}
+.anniu a:hover{ text-decoration: underline;color:#418bc7;}
+
+/*简介  */
+.jj{margin:20px 0 0 30px;}
+.jj .tex{font-weight:bold; float:left;}
+.jj .gx{float:right; margin-right:50px;}
+.jj .bt1{ float:left;width:60px; margin-left:20px; color:#418BC7; cursor:pointer;}
+.jj .bt2{ float:left; width:40px;color:#418BC7; cursor:pointer;}
+.jj textarea{margin-top:5px; padding:2px;   width:660px; height:80px; line-height:18px; resize:none; font-size:12px; overflow-y:auto;;}
+
+/*icon  */
+.wenben_icon{ background:url(../images/wenben_icon.png) no-repeat; height:18px;  }
+.tupian_icon{ background:url(../images/tupian_icon.png) no-repeat; height:18px;}
+.shipin_icon{ background:url(../images/shipin_icon.png) no-repeat; height:16px; }
+.guanbi_icon{ background:url(../images/guanbi_icon.png) no-repeat; height:12px; width:12px; cursor:pointer;}
+
+/*列表页码  */
+div.digg{padding:0 10px; text-align:center; float:right; }
+div.digg a{ border:1px solid #aaaadd; padding: 2px 5px;  text-decoration:none; color:#000;  }
+div.digg a:hover{ border:1px solid #417eb7; color:#417eb7;  }
+div.digg a:active{ border:1px solid #417eb7; color:#000; }
+div.digg span.current{ border:1px solid #417eb7; padding: 2px 5px; font-weight:bold; color:#fff; background-color:#417eb7; }
+div.digg span.disabled{ border:1px solid #eee; padding: 2px 5px; }
+
+
+
+

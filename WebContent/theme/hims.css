@@ -1,0 +1,66 @@
+html {overflow-y:scroll; margin: 0;padding: 0;width: 100%; background:#F8F8F8;height:100%; overflow: hidden;}
+body {font-family: Arial, Helvetica, sans-serif;font-size: 12px;width: 100%;height:100%;margin:0; padding:0; overflow: hidden;}
+table {border-collapse: collapse;border-spacing: 0;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+ol,ul {list-style:none;}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+address,cite,code,em,i{font-weight:normal; font-style:normal;}
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+.fl{ float:left;}
+.fr{float:right;}
+
+.top {height: 27px;background: #f1f1f1;border-bottom: solid 1px #c8c8c8;}
+.top .left {width: 140px;height: 21px;background: url("images/hims_icon.png") no-repeat 0 -336px;float: left;margin: 2px 0 0 10px;display: inline;line-height: 21px;padding-left: 25px;font-weight: bold;color: #417eb7;}
+.top .line {float: left;height: 27px;width: 2px;background: url("images/hims_line.png") no-repeat center;}
+.top #qhHover{float: left;height: 20px;margin: 2px  0 0 10px;line-height: 20px;padding: 0 0 0 25px;background: url("images/hims_icon.png") no-repeat 0 -295px;color: #2889d9}
+.top #large{background: url("images/hims_icon.png") no-repeat 0 -376px;height:27px;width: 35px;float: right;cursor: pointer; }
+.top #fxt{float: left;height: 20px;margin: 2px  0 0 10px;line-height: 20px;padding: 0 0 0 25px;background: url("images/fxt_icon.png") no-repeat;cursor: pointer;color: #2889d9}
+
+.mainLeft{float: left;width: 175px;height:100%;background: #dddddd;border-right: solid 2px #c8c8c8;padding: 5px 0;}
+.mainLeft .item {margin: 0 1px;border-bottom:dashed 1px #9F9F9F;border-top: dashed 1px #ffffff;padding: 3px 0;}
+.mainLeft .item.first {border-top-width: 0;}
+.mainLeft .item.last {border-bottom-width: 0;text-align: center;}
+.mainLeft .item div {height: 25px;line-height: 25px;margin: 2px 0 0 10px;color: #444444;}
+.mainLeft .item div.name {font-size: 14px;font-weight: bold;text-align: left;}
+.mainLeft .item div span {height: 25px;line-height: 25px;float: left;font-size: 12px;}
+.mainLeft div span.txt {width: 65px;}
+.mainLeft .item div span.stateBtn {float: right;margin-right: 16px;}
+.mainLeft div span .input {width: 85px;}
+.mainLeft div span select {width: 85px;}
+.mainLeft div span .si {width: 30px;margin: 2px 0 0 2px;}
+.mainLeft .item div.multiple{height: 350px;background: #fff;border: solid 1px #eee;width: 160px;overflow-y:auto;overflow-x:hidden;}
+.mainLeft .item .pv{margin-right: 10px;padding: 1px 10px;background: #f7f6f6;border: solid 1px #bdbdbd;cursor: pointer;}
+.mainLeft .item .cb{margin: 6px 5px 0 0;float: left;border: solid 1px #666666;background: #fff;width: 13px;height: 13px;}
+.mainLeft .item .result{margin: 8px;height: 370px;border: solid 1px #a9a9a9;background: #fff;padding: 1px;}
+.mainLeft .item .result .list{height: 21px;line-height: 21px;text-align: left;padding-left: 5px;width: 148px;float: left;cursor: pointer;}
+.mainLeft .item .result .selected,.mainLeft .item .result .hover{background: #afcee7;}
+
+.mainRight{height:100%;margin-left: 175px;}
+.mainRight .floodInfo{height: 19px;padding-left: 20px;line-height: 19px;color:#c1383f;font-weight: bold;background: url("images/hims_icon.png") no-repeat 0 -357px;margin: 8px 0 0 10px;}
+.mainRight #keepsoft-table-table{margin-left: 1px;position:fixed;bottom: 0;right:0;left:175px;}
+
+/**未来**/
+#futurePcpOverlay {z-index: 800;padding: 0px;width: 100%;height: 100%;top: 28px;left: 177px;background-color: rgb(0, 0, 0);opacity: 0.4;cursor: wait;position: fixed;}
+#future {position: fixed;top: 28px;left: 177px;z-index: 999;margin: 0px;overflow-x: auto;background: #fff;width: 100%;}
+#future .wrap{margin-right: 177px;overflow-y:auto;max-height:485px;  }
+#future .list{overflow-x:auto; }
+#future .list .name{height: 25px;line-height: 25px;padding-left: 10px;color: #6199c9;}
+#future .list .info{border: solid 1px #d7d7d7;border-left-width:0;border-right-width:0;height: auto;}
+#future .list .info .th{height: 22px;line-height: 22px;background: #f5f5f5;border-bottom:solid 1px #d7d7d7;}
+#future .list .info .th span{width: 80px;border-right:solid 1px #d7d7d7;float: left;height: 22px;line-height: 22px;text-align: center; }
+#future .list .info .td{border-bottom:solid 1px #d7d7d7;height: auto;}
+#future .list .info .td .div{width: 80px;border-right:solid 1px #d7d7d7;float: left;}
+#future .list .info .td .div.time24{height: 68px;line-height: 20px;text-align: center;width: 100px;}
+#future .list .info .td .div.time1,#future .list .info .td .div.time6{height: 22px;line-height: 22px;text-align: center;width: 100px;}
+#future .list .info .td .div.s24{width: 60px;}
+#future .list .info .td .div.s1,#future .list .info .td .div.s6{width: 60px;border-bottom-width: 0;}
+#future .list .info .td .div span{width: 80px;float: left;height: 22px;line-height: 22px;text-align: center;border-bottom:solid 1px #d7d7d7;overflow: hidden;}
+#future .list .info .td .div span.last{border-bottom-width:0;}
+#future .list .info .td .div.s1 span,#future .list .info .td .div.s24 span,#future .list .info .td .div.s6 span{width: 60px;}
+#future .list .info .th span.first{width: 161px;}
+
+ #himshide{display: none;z-index: 10000;position: absolute;width: 50px;height:30px;background: #000;top:50px;left:20px; }

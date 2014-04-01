@@ -1,0 +1,5 @@
+connection.username=root
+connection.password=123
+connection.url=jdbc:mysql://localhost:3388/jxc?characterEncoding=utf-8
+connection.driver_class=com.mysql.jdbc.Driver
+ 
