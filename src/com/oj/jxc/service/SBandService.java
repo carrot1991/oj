@@ -19,24 +19,32 @@ import com.oj.jxc.entity.SBandDO;
 public class SBandService extends BaseService {
 	/**
 	 * get all data
+	 * 
 	 * @return
 	 */
 	public List<SBandDO> getList() {
-		List<SBandDO> list = this.dao.queryForBeanList("select * from s_band order by level", SBandDO.class);
+		List<SBandDO> list = null;
+		list = this.dao.queryForBeanList("select * from s_band order by level",
+				SBandDO.class);
 		return list;
 	}
 
 	/**
 	 * save or update
+	 * 
 	 * @param band
 	 * @return
 	 */
 	public Integer saveOrUpdate(SBandDO entity) {
 		if (entity != null) {
-			if (entity.getBandid()==null || entity.getBandid()==0) {//{StringUtils.isBlank(String.valueOf(entity.getBandid()))) {
+			if (entity.getBandid() == null || entity.getBandid() == 0) {// {StringUtils.isBlank(String.valueOf(entity.getBandid())))
+																		// {
 				return this.insert(entity);
 			} else {
-				this.dao.update("update s_band set title=?,level=? where bandid = ?", entity.getTitle(),entity.getLevel(),entity.getBandid());
+				this.dao.update(
+						"update s_band set title=?,level=? where bandid = ?",
+						entity.getTitle(), entity.getLevel(),
+						entity.getBandid());
 			}
 		}
 		return 0;
@@ -44,6 +52,7 @@ public class SBandService extends BaseService {
 
 	/**
 	 * remove by id
+	 * 
 	 * @param id
 	 */
 	public void remove(int id) {
@@ -52,18 +61,27 @@ public class SBandService extends BaseService {
 
 	/**
 	 * find DO by id
+	 * 
 	 * @param id
 	 * @return
 	 */
 	public SBandDO findById(String id) {
-		return this.dao.queryForBean("select * from s_band where bandid = ?", SBandDO.class, id);
+		return this.dao.queryForBean("select * from s_band where bandid = ?",
+				SBandDO.class, id);
 	}
+
 	public List<SBandDO> findByType(int typeid) {
-		return this.dao.queryForBeanList("select * from s_band where typeid = ? order by level", SBandDO.class, typeid);
+		return this.dao.queryForBeanList(
+				"select * from s_band where typeid = ? order by level",
+				SBandDO.class, typeid);
 	}
-	//bandid mytitle level
-	public List<BandDict> getDict(){
-		return dao.queryForBeanList("SELECT band.bandid, CONCAT(cat.title,'-',tp.title,'-',band.title) mytitle FROM s_band band INNER JOIN s_type tp ON tp.typeid=band.typeid  INNER JOIN s_category cat ON tp.cateid=cat.id ORDER BY cat.level,tp.level,band.level",BandDict.class);
+
+	// bandid mytitle level
+	public List<BandDict> getDict() {
+		return dao
+				.queryForBeanList(
+						"SELECT band.bandid, CONCAT(cat.title,'-',tp.title,'-',band.title) mytitle FROM s_band band INNER JOIN s_type tp ON tp.typeid=band.typeid  INNER JOIN s_category cat ON tp.cateid=cat.id ORDER BY cat.level,tp.level,band.level",
+						BandDict.class);
 	}
-	 
+
 }
